@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  <meta content='{{ SITEURL }}/{{ article.url }}' property='og:url' />
+  <meta content="{{ article.content | striptags | truncate(120) }}" property='og:description' />
+  <meta content="article" property="og:type" />
+{% endblock %}
+{% block content %}
+  <article>
+    <h3 class="reset bold upcase a">{{ article.title }}</h3>
+    {% if article.date %}
+      <small class="datetime muted">{{ article.date | strftime('%Y-%m-%d') }}</small>
+    {% endif %}
+    <hr>
+    {{ article.content }}
+  </article>
+  {% if article.url != "/about/" %}
+    <div class="signoff">
+      <p>
+        Til next time,<br/>
+        <div class="avatar-wrapper"><img src="/images/panda.png" alt="@muan wearing a Panda head in GitHub summer 2013 summit." class="avatar" /></div>
+        Mu-An
+        <span class="muted">{{ article.date | strftime('%Y-%m-%d') }}</span>
+        <br />
+        <span class="small upcase bold"><a href="/about" id="me">Find out about me</a>. Also <a href="http://www.twitter.com/share?url={{ SITEURL }}/{{ article.url }}&via=muanchiou&text={{ article.title }}" target="_blank">Tweet</a> this or follow me on <a href="https://twitter.com/muanchiou/" target="_blank">Twitter</a>.</span>
+      </p>
+    </div>
+  {% endif %}
+{% endblock %}

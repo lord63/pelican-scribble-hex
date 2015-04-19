@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  <meta content='{{ SITEURL }}' property='og:url' />
+  <meta content="{{ DESCRIPTION }}" property='og:description' />
+  <meta content="blog" property="og:type" /><meta content='{{ SITEURL }}' property='og:url' />
+  <meta content="{{ DESCRIPTION }}" property='og:description' />
+  <meta content="blog" property="og:type" />
+{% endblock %}
+{% block content %}
+  <p><a href="/" class="hex-shape big"></a></p>
+  <p>My name is <strong>Mu-An Chiou</strong>.</p>
+  <p>A super proud <strong>Design Superhero™</strong> at <a href="">GitHub</a>. Founder of <a href="">Zeczec</a>.</p>
+  <p>Known to be Aggressively Shy™. From <strong>Taipei</strong>, based in <strong>London</strong>.</p>
+  <nav class="bold">
+    {% for name, link in LINKS %}
+      <a id="ind-{{ name | lower }}" href="{{ link }}">{{ name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    {% endfor %}
+  </nav>
+  <hr />
+
+  <strong class="muted upcase">
+  Some words:
+  </strong><br /><br />
+
+  {% for article in articles_page.object_list %}
+  <li>
+    <h2><a class="upcase" href="{{ article.url }}#">
+      {{ article.title }}<br />
+    </a></h2>
+    <small class="datetime muted">Posted <span data-time="{{ article.date }}">{{ article.date | strftime("%Y-%m-%d") }}</span></small>
+  </li>
+  {% endfor %}
+{% endblock %}
