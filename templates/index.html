@@ -23,6 +23,7 @@
   Some words:
   </strong><br /><br />
 
+  <ul class="posts">
   {% for article in articles_page.object_list %}
   <li>
     <h2><a class="upcase" href="{{ article.url }}#">
@@ -31,4 +32,5 @@
     <small class="datetime muted">Posted <span data-time="{{ article.date }}">{{ article.date | strftime("%Y-%m-%d") }}</span></small>
   </li>
   {% endfor %}
+  </ul>
 {% endblock %}
