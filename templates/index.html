@@ -2,19 +2,18 @@
 {% block head %}
   {{ super() }}
   <meta content='{{ SITEURL }}' property='og:url' />
-  <meta content="{{ DESCRIPTION }}" property='og:description' />
+  <meta content="{{ SITE_DESCRIPTION }}" property='og:description' />
   <meta content="blog" property="og:type" /><meta content='{{ SITEURL }}' property='og:url' />
-  <meta content="{{ DESCRIPTION }}" property='og:description' />
+  <meta content="{{ SITE_DESCRIPTION }}" property='og:description' />
   <meta content="blog" property="og:type" />
 {% endblock %}
 {% block content %}
   <p><a href="/" class="hex-shape big"></a></p>
-  <p>My name is <strong>Mu-An Chiou</strong>.</p>
-  <p>A super proud <strong>Design Superhero™</strong> at <a href="">GitHub</a>. Founder of <a href="">Zeczec</a>.</p>
-  <p>Known to be Aggressively Shy™. From <strong>Taipei</strong>, based in <strong>London</strong>.</p>
+  <p>{{ SELF_INTRO }}</p>
+
   <nav class="bold">
     {% for name, link in LINKS %}
-      <a id="ind-{{ name | lower }}" href="{{ link }}">{{ name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a id="ind-{{ name }}" href="{{ link }}">{{ name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
     {% endfor %}
   </nav>
   <hr />
