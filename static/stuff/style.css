@@ -328,6 +328,10 @@ article iframe, article img, article video {
   width: 40px;
   height: 48px; }
 
+#disqus_thread {
+    max-width: 650px;
+}
+
 @media (max-width: 770px) {
   .wrapper {
     margin: 0; }
