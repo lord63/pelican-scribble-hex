@@ -1,6 +1,6 @@
 # Pelican-scribble-hex
 
-A Pelican theme which was ported from [scribble][].
+A Pelican theme which was ported from [scribble][]. You can check the demo here: [demo][]
 
 ![demo-image][]
 
@@ -27,11 +27,13 @@ I assume that you've installed Pelican.
 
 ## Credits
 
-All the glories should belong to @muan, I just port it to Pelican :)
+All the glories should belong to [@muan][], I just port it to Pelican :)
 
 ## License
 
 MIT.
 
+[demo]: http://lord63.github.io/pelican-scribble-hex/
 [scribble]: https://github.com/muan/scribble
 [demo-image]: https://cloud.githubusercontent.com/assets/5268051/7243713/76c15be0-e803-11e4-81da-b7f406adc9cb.jpg
+[@muan]: https://github.com/muan
