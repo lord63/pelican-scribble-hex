@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lord63's blog</title><link href="http://blog.lord63.com/" rel="alternate"></link><link href="http://blog.lord63.com/feeds/lord63.atom.xml" rel="self"></link><id>http://blog.lord63.com/</id><updated>2015-04-20T18:48:00+02:00</updated><entry><title>Markdown test</title><link href="http://blog.lord63.com/markdown-test.html" rel="alternate"></link><updated>2015-04-20T18:48:00+02:00</updated><author><name>lord63</name></author><id>tag:blog.lord63.com,2015-04-20:markdown-test.html</id><summary type="html">&lt;h1&gt;This is an H1&lt;/h1&gt;
+&lt;h2&gt;This is an H2&lt;/h2&gt;
+&lt;h3&gt;This is an H3&lt;/h3&gt;
+&lt;h4&gt;This is an H4&lt;/h4&gt;
+&lt;h5&gt;This is an H5&lt;/h5&gt;
+&lt;h6&gt;This is an H6&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;code highlight:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class="c"&gt;# -*- coding: utf-8 -*- #&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+&lt;p&gt;Hey, I found a horizontal rule on my head.&lt;/p&gt;
+&lt;p&gt;This is &lt;a href="http://example.com/" title="Title"&gt;an example&lt;/a&gt; inline link.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;emphasis something here&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;make something strong&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image-test" src="https://cloud.githubusercontent.com/assets/5268051/7243713/76c15be0-e803-11e4-81da-b7f406adc9cb.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Say hi to scribble-hex</title><link href="http://blog.lord63.com/say-hi-to-scribble-hex.html" rel="alternate"></link><updated>2015-04-20T17:48:00+02:00</updated><author><name>lord63</name></author><id>tag:blog.lord63.com,2015-04-20:say-hi-to-scribble-hex.html</id><summary type="html">&lt;p&gt;Hi, this is a Pelican theme, called pelican-scribble-hex, which was ported from
+&lt;a href="https://github.com/muan/muan.github.com/releases"&gt;scribble&lt;/a&gt; by &lt;a href="https://github.com/muan"&gt;muan&lt;/a&gt;. Hope you would enjoy it :)&lt;/p&gt;</summary></entry></feed>
