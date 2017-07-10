@@ -37,6 +37,8 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;image test:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="my avatar" src="https://avatars2.githubusercontent.com/u/5268051?v=3&amp;amp;s=460"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Hey, I found a horizontal rule on my head.&lt;/p&gt;
 &lt;p&gt;This is an example &lt;a href="https://github.com/lord63/pelican-scribble-hex"&gt;inline&lt;/a&gt; link.&lt;/p&gt;
