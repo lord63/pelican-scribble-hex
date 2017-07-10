@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican-scribble-hex theme demo - misc</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2017-07-10T19:54:00+08:00</updated><entry><title>Markdown test</title><link href="/markdown-test.html" rel="alternate"></link><published>2017-07-10T19:54:00+08:00</published><updated>2017-07-10T19:54:00+08:00</updated><author><name>lord63</name></author><id>tag:None,2017-07-10:/markdown-test.html</id><summary type="html">&lt;h1&gt;This is an H1&lt;/h1&gt;
+&lt;h2&gt;This is an H2&lt;/h2&gt;
+&lt;h3&gt;This is an H3&lt;/h3&gt;
+&lt;h4&gt;This is an H4&lt;/h4&gt;
+&lt;h5&gt;This is an H5&lt;/h5&gt;
+&lt;h6&gt;This is an H6&lt;/h6&gt;
+&lt;p&gt;This is a paragraph and I want to say something. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This is an H1&lt;/h1&gt;
+&lt;h2&gt;This is an H2&lt;/h2&gt;
+&lt;h3&gt;This is an H3&lt;/h3&gt;
+&lt;h4&gt;This is an H4&lt;/h4&gt;
+&lt;h5&gt;This is an H5&lt;/h5&gt;
+&lt;h6&gt;This is an H6&lt;/h6&gt;
+&lt;p&gt;This is a paragraph and I want to say something. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Here is an ordered list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;number one&lt;/li&gt;
+&lt;li&gt;number two&lt;/li&gt;
+&lt;li&gt;number three&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;and an unsorted list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;li&gt;two&lt;/li&gt;
+&lt;li&gt;three&lt;/li&gt;
+&lt;li&gt;four&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;code highlight:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class="c1"&gt;# -*- coding: utf-8 -*- #&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello, world.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;Hey, I found a horizontal rule on my head.&lt;/p&gt;
+&lt;p&gt;This is an example &lt;a href="https://github.com/lord63/pelican-scribble-hex"&gt;inline&lt;/a&gt; link.&lt;/p&gt;
+&lt;p&gt;make &lt;strong&gt;something strong&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Use the &lt;code&gt;print()&lt;/code&gt; function.&lt;/p&gt;</content></entry><entry><title>Say hi to Pelican-scribble-hex</title><link href="/say-hi-to-pelican-scribble-hex.html" rel="alternate"></link><published>2017-07-10T19:50:00+08:00</published><updated>2017-07-10T19:50:00+08:00</updated><author><name>lord63</name></author><id>tag:None,2017-07-10:/say-hi-to-pelican-scribble-hex.html</id><summary type="html">&lt;p&gt;Hello, world. Nice to meet you!&lt;/p&gt;
+&lt;p&gt;This is the Pelican-scribble-hex theme, hope you'll enjoy it.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello, world. Nice to meet you!&lt;/p&gt;
+&lt;p&gt;This is the Pelican-scribble-hex theme, hope you'll enjoy it.&lt;/p&gt;</content></entry></feed>
