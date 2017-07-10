@@ -2,8 +2,8 @@
 ####################
 
 # virtualenv folder
-venv/
-venv33/
+*/venv/
+*/venv33/
 
 # pycharm
 .idea/
@@ -68,3 +68,5 @@ docs/_build/
 # PyBuilder
 target/
 
+
+demo/output
